@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <article data-testid="test-profile-card">
+    <figure>
+      <img src="https://i.pravatar.cc/150?img=3" alt="Profile Photo" data-testid="test-user-avatar" />
+    </figure>
+
+    <div class="info">
+      <header>
+        <h2 data-testid="test-user-name">Goodness Oluseyi</h2>
+      </header>
+
+      <p data-testid="test-user-bio">
+        Hi, My name is Goodness I am an Aspiring frontend Engineer I want  to build  websites, solve problems, and become  usefull during my existence 
+      </p>
+
+      <p id="time" data-testid="test-user-time">Loading time.....</p>
+
+      <nav>
+        <ul data-testid="test-user-social-links">
+          <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+          <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Reading</li>
+          <li>Coding</li>
+          <li>Listening to music</li>
+          <li>Teaching</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Mockery</li>
+          <li>Snubbing</li>
+          <li>Bullying</li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </article>
+</body>
+</html>
