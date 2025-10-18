@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+article[data-testid="test-profile-card"] {
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+figure {
+  text-align: center;
+}
+
+img[data-testid="test-user-avatar"] {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+@media screen and (min-width: 600px) {
+  article[data-testid="test-profile-card"] {
+    display: flex;
+    gap: 20px;
+  }
+
+  figure, .info {
+    flex: 1;
+  }
+}
